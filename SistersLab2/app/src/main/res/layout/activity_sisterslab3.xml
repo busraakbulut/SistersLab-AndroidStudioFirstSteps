@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sisterssss"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Sisterslab3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="top"
+        android:text="I am happy to join Sisterslab :)"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13pt">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="13pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="350dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark">
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:buttonTint="#00B8D4"
+        android:gravity="center"
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+        android:text="Do You Want To Join Us Too?"
+        android:textColor="#FF0000"
+        android:textSize="18pt" />
+</LinearLayout>
